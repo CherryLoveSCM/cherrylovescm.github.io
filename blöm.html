@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<head>
+  <title>123</title>
+  <link type="text/css" rel="stylesheet" href="main.css"/>
+  <link type="text/css" rel="stylesheet" href="blom2.css"/>
+  <script type="text/javascript">
+  	
+
+
+
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+			function openNav() {
+			    document.getElementById("Side").style.width = "250px";
+			    document.getElementById("nav").style.marginLeft = "250px";
+			    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+			function closeNav() {
+			    document.getElementById("Side").style.width = "0";
+			    document.getElementById("nav").style.marginLeft = "0";
+			    document.body.style.backgroundColor = "white";
+			}
+
+  </script>
+</head>
+
+
+<body>
+  <div id="Side" class="nav">
+<a href="javascript:void(0)" class="close" onclick="closenav()">&times;</a>
+<a href="#">Humor</a>
+<a href="#">Nyheter</a>
+<a href="#">Politik</a>
+<a href="#">Nöje</a>
+<a href="#">Hälsa</a>
+  </div>
+<header class="header">
+<div class="row">
+<h1 class="text">Boi</h1>
+</div>
+</header>
+
+<section class="main">
+  <div class="sida">
+    
+    <div class="nyhet">
+      <a href="#">
+      <div class="nyheten">
+        <img class="bild" src="https://i.gyazo.com/a3b97e8e203352a198569bd87512c.png">
+        <span class="span">Övrigt</span>
+        <p>Test</p>
+        </a>
+      </div>
+    </div>
+
+        <div class="nyhet">
+      <a href="#">
+      <div class="nyheten">
+        <img class="bild" src="https://i.gyazo.com/a3b97e8e23352a198569bd87512c.png">
+        <span class="span">Övrigt</span>
+        
+        <p>Test</p>
+        </a>
+      </div>
+    </div>
+
+    <span onclick="openNav()">open</span>
+    
+    
+    
+    
+    </div>
+</section>
+
+
+
+</body>
