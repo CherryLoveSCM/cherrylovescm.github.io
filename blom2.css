@@ -1,5 +1,5 @@
-/* The side navigation menu */
-.Side {
+/* The nav navigation menu */
+.nav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -9,11 +9,11 @@
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the Side */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the nav */
 }
 
 /* The navigation menu links */
-.side a {
+.nav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -23,12 +23,12 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.Side a:hover, .offcanvas a:focus{
+.nav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
-.Side .closebtn {
+.nav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -36,14 +36,14 @@
     margin-left: 50px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* Style page content - use this if you want to push the page content to the right when you open the nav navigation */
 #main {
     transition: margin-left .5s;
     padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the Side (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 450px, change the style of the nav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .Side {padding-top: 15px;}
-    .Side a {font-size: 18px;}
+    .nav {padding-top: 15px;}
+    .nav a {font-size: 18px;}
 }
