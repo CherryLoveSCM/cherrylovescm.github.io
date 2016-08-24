@@ -1,0 +1,143 @@
+body{
+  left: 0;
+  margin: 0;
+  position: relative;
+  background:url("content-bg.png");
+}
+
+header {
+  background-color: #0099ff;
+  width: 100%;
+  height: 84px;
+  border-bottom: 4px solid #007acc;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  padding: 0px 0px 0px 5%;
+  color: white;
+  font-family: Arial;
+}
+.meny {
+  height: 100%;
+  width: 300px;
+  background: #202024 url('https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  position: fixed;
+  left: -300px;
+}
+.closer {
+  width: 300px;
+  height: 80px;
+   box-shadow: 0px 1px 0px #d6dce0;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.li {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+   padding-top: 3px;
+   border-bottom: 1px solid #d6dce0;
+}
+.meny a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.bild2{
+  width: 25px;
+  height: 25px;
+   padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  
+}
+#main{
+  width: 100%;
+  height: 760px;
+}
+#text-mitt{
+  width: 60%;
+  height: 20%;
+  margin: 0 auto;
+  
+}
+#brod-text{
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+#rubrik-div{
+  width: 757px;
+  height 27px;
+  margin: 0 auto;
+}
+#rubrik{
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+#video-div{
+  margin: 0 auto;
+  width: 560px;
+  height: 330px;
+}
+#video{
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  
+}
+#videon{
+  height: 315px;
+  width: 560px;
+}
+#article{
+  box-shadow:4px 4px 0px #d6dce0;
+  background: #FFF;
+  width: 768px;
+  margin: 0 auto;
+}
+h2{
+  font-weight: bolder;
+  line-height: 1.2;
+  font-size: 2.3em;
+}
+p{
+  font-family:Georgia;
+
+}
+
+
+
+
+
+.facebook-knapp{
+  margin: 0 auto;
+}
+
+#under-video{
+  margin: 0 auto;
+  width: 768px;
+}
+#content{
+  margin: 0 auto;
+  
+}
+.nyhet{
+  width: 375px;
+  height: 305px;
+  display: inline-block;
+}
